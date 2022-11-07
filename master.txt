@@ -183,3 +183,25 @@ EndGlobal
 
 
 
+
+$ git commit -m "this is my first commit"
+[master (root-commit) 3370bab] this is my first commit
+ 1 file changed, 185 insertions(+)
+ create mode 100644 master.txt
+
+pawan@DESKTOP-U5ORG7Q MINGW64 ~/firstrepo (master)
+$ git log
+commit 3370bab7eb15ffef1ca16562ea7be6cccb9bd03e (HEAD -> master)
+Author: itpawan <pathakpawan097@gmail.com>
+Date:   Mon Nov 7 14:57:56 2022 +0530
+
+    this is my first commit
+
+pawan@DESKTOP-U5ORG7Q MINGW64 ~/firstrepo (master)
+$ touch master1.txt
+
+pawan@DESKTOP-U5ORG7Q MINGW64 ~/firstrepo (master)
+$ notepad master1.txt
+
+pawan@DESKTOP-U5ORG7Q MINGW64 ~/firstrepo (master)
+$
